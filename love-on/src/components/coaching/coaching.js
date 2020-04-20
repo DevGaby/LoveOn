@@ -11,8 +11,10 @@ export default class Coaching extends Component {
                 </div> 
                 </div>
                 <div className="col-8">
-                    <div className="card p-3"> <h2> COACHING </h2>
-                        <p className="p-3 m-43"> <h4> Besoin d'un coup de pouce? </h4>
+                    <div className="card p-3"> 
+                    <h2> COACHING </h2>
+                    <h4> Besoin d'un coup de pouce? </h4>
+                        <div className="p-3 m-43"> 
                             <ul className=""> 
                                 <li>Cras justo odio</li>
                                 <li>Dapibus ac facilisis in</li>
@@ -20,7 +22,7 @@ export default class Coaching extends Component {
                                 <li>Porta ac consectetur ac</li>
                                 <li>Vestibulum at eros</li>
                             </ul>
-                        </p>
+                        </div>
                     </div>
                     <div className="card"> <button className="btn btn-outline-success btn-lg"> C'est içi</button></div>
                 </div>
