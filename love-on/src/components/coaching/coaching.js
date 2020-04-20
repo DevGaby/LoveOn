@@ -4,7 +4,6 @@ export default class Coaching extends Component {
     render(){
         return (
             <div className="description d-flex flex-row p-2 m-2 text-justify">
-           
                 <div className="col-4">
                 <div className="card" > 
                     <img className="card-img-top" style={{ width: 350,height: 500}} src={ couple } alt="logo"/>
