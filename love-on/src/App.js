@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Footer, Description, Coaching, ListStories, Contact, Download } from './components';
+import { Header, Footer, Description, Coaching } from './components';
 
 class App extends Component {
   render() {

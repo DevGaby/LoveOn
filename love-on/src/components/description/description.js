@@ -15,14 +15,14 @@ export default class Description extends Component {
                         </p>
                     </p>
                 </div>
-                <div className="row">
-                <div className="col" style={{ width: 100 }}> <img className="card-img-top" src={android} alt="logo"/></div>
-                <div className="col" style={{ width: 100 }}> <img className="card-img-top" src={ios} alt="logo"/></div>
+                <div className="row text-center p-2">
+                    <div className="col" > <img className="card-img-top" style={{ width: 200 }} src={android} alt="logo"/></div>
+                    <div className="col" > <img className="card-img-top" style={{ width: 200, height:60 }} src={ios} alt="logo"/></div>
                 </div>
             </div>
             <div className="col-4">
-            <div className="card"> 
-                    <img className="card-img-top" src={logo} alt="logo"/>
+                <div className="card"> 
+                    <img className="card-img-top" src={ logo } alt="logo"/>
                 </div> 
             </div>
         </div>
