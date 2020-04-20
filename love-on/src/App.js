@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Description, Footer } from './components';
+import { Header, Footer, Description, Coaching, ListStories, Contact, Download } from './components';
 
 class App extends Component {
   render() {
@@ -7,8 +7,8 @@ class App extends Component {
       <div className="App d-flex flex-column">
        <Header />
        <div className="d-flex flex-column flex-fill">
-         <Description />
-        
+        <Description />
+        <Coaching />
        </div>
        <Footer />
      </div>
